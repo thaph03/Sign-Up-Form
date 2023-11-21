@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.picture {
+  background-image: url(https://cdn.donmai.us/original/b8/98/__yuuka_and_yuuka_blue_archive_drawn_by_dzdz0510__b898e4a725da4880f302c9d6feed336d.jpg);
+  width: 40vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 10rem;
+  gap: 1rem;
+  box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.5);
+  opacity: 5;
+}
+
+.Otalku {
+  margin-top: 2.3rem;
+  font-size: 2.8rem;
+
+  font-family: "Tilt Neon", sans-serif;
+  font-weight: bolder;
+}
+
+.right {
+  background-color: #5b68eb;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 60vw;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.dummy-text {
+  font-weight: 500;
+  width: 95%;
+  font-size: 1.2rem;
+  color: #e8e8e9;
+  padding-left: 7rem;
+
+  font-size: 1.3rem;
+}
+
+.remote-text {
+  margin: 40px 0 80px;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #36393f;
+  width: 100%;
+
+  padding-left: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #e8e8e9;
+  font-size: 18px;
+  border-radius: 35px;
+}
+
+.form-title {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.input {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 45%;
+  padding: 1rem;
+  gap: 0.4rem;
+}
+
+input:focus {
+  outline: none;
+
+  border: 1px solid black;
+  background-color: #292b31;
+  color: #e8e8e9;
+}
+
+.input input {
+  /* Set the desired width */
+  height: 30px; /* Set the desired height */
+  border-radius: 10px;
+}
+
+.left button {
+  margin-left: 7rem;
+  margin-top: 3rem;
+  background-color: #5b68eb;
+  height: 4rem;
+  width: 10rem;
+  border-radius: 31px;
+  font-weight: bold;
+  color: #e8e8e9;
+  border-color: #e8e8e9;
+  border-width: thick;
+  font-size: 18px;
+}
+
+.left button:active {
+  border-color: #292b31;
+  color: #5b68eb;
+  background-color: #e8e8e9;
+}
+
+.log-in {
+  display: flex;
+  gap: 0.6rem;
+  padding-left: 7rem;
+  font-size: larger;
+  color: #e8e8e9;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2d54ff;
+}
+
+a:hover {
+  color: #e8e8e9;
+}
